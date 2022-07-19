@@ -17,15 +17,15 @@ Pod::Spec.new do |spec|
 
   spec.name         = "XMLDictionary"
   spec.version      = "1.4.1.1"
-  spec.summary      = "A short description of XMLDictionary."
+  spec.summary      = "XMLDictionary is a class designed to simplify parsing and generating of XML on iOS and Mac OS."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  # spec.description  = <<-DESC XMLDictionary is a class designed to simplify parsing and generating of XML on iOS and Mac OS.
+  #                  DESC
 
   spec.homepage     = "https://github.com/nicklockwood/XMLDictionary"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -88,10 +88,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "XMLDictionary", "XMLDictionary/**/*.{h,m}"
+  # spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = "XMLDictionary/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
