@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XMLDictionary"
-  spec.version      = "0.0.1"
+  spec.version      = "1.4.1.1"
   spec.summary      = "A short description of XMLDictionary."
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/XMLDictionary"
+  spec.homepage     = "https://github.com/nicklockwood/XMLDictionary"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "zlib"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,9 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Tim Batty" => "tbatty7@gmail.com" }
-  # Or just: spec.author    = "Tim Batty"
-  # spec.authors            = { "Tim Batty" => "tbatty7@gmail.com" }
+  spec.authors            = { "Tim Batty" => "tbatty7@gmail.com", "Nick Lockwood" => "nick@charcoaldesign.co.uk" }
   # spec.social_media_url   = "https://twitter.com/Tim Batty"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/XMLDictionary.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/MobileBytes/XMLDictionary.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
